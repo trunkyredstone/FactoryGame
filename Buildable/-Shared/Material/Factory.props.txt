@@ -1,0 +1,405 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[24] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+    ReferencedTextures[1] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+    ReferencedTextures[2] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+    ReferencedTextures[3] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Asphalt_Alb.Asphalt_Alb'
+    ReferencedTextures[4] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Asphalt_Nor_Rough.Asphalt_Nor_Rough'
+    ReferencedTextures[5] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Mask_Factory_02.Mask_Factory_02'
+    ReferencedTextures[6] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Paint_Rubber_Plastic_Rough.Paint_Rubber_Plastic_Rough'
+    ReferencedTextures[7] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/PaintedPrimaryMetal_albedo.PaintedPrimaryMetal_albedo'
+    ReferencedTextures[8] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/PaintedPrimaryMetal_normal.PaintedPrimaryMetal_normal'
+    ReferencedTextures[9] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/PaintedPrimaryMetal_roughnessMetallicHeight.PaintedPrimaryMetal_roughnessMetallicHeight'
+    ReferencedTextures[10] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Plastic_Nor.Plastic_Nor'
+    ReferencedTextures[11] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Rubber_Nor.Rubber_Nor'
+    ReferencedTextures[12] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Alb.Steel_Alb'
+    ReferencedTextures[13] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Mask_Alb.Steel_Mask_Alb'
+    ReferencedTextures[14] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Metal.Steel_Metal'
+    ReferencedTextures[15] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Nor.Steel_Nor'
+    ReferencedTextures[16] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_NorRough.Steel_NorRough'
+    ReferencedTextures[17] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Rough.Steel_Rough'
+    ReferencedTextures[18] = Texture2D'/Game/FactoryGame/Buildable/Building/Foundation/Texture/Cement_Alb.Cement_Alb'
+    ReferencedTextures[19] = Texture2D'/Game/FactoryGame/Buildable/Building/Foundation/Texture/Cement_Nor_Rough.Cement_Nor_Rough'
+    ReferencedTextures[20] = Texture2D'/Game/FactoryGame/Buildable/Building/Foundation/Texture/Concrete_02_Alb.Concrete_02_Alb'
+    ReferencedTextures[21] = Texture2D'/Game/FactoryGame/Buildable/Building/Foundation/Texture/Concrete_02_Nor_Rough.Concrete_02_Nor_Rough'
+    ReferencedTextures[22] = Texture2D'/Game/FactoryGame/Buildable/Factory/CA_SplitterProgrammable/Material/ProgrammableSplitter_MonitorGrid.ProgrammableSplitter_MonitorGrid'
+    ReferencedTextures[23] = Texture2D'/Game/FactoryGame/World/Environment/Landscape/Texture/Tiles/Road/DirtRoad_Nor.DirtRoad_Nor'
+}
+Expressions[54] = {  }
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[44] =
+                {
+                    ParameterInfos[0] = { Name=Light_Strength_Global }
+                    ParameterInfos[1] = { Name=Roughness }
+                    ParameterInfos[2] = { Name=Primary_Roughness }
+                    ParameterInfos[3] = { Name=Dirt_Gradient_Strength }
+                    ParameterInfos[4] = { Name=UV_Tile_Dirt_Normal }
+                    ParameterInfos[5] = { Name=Metallic }
+                    ParameterInfos[6] = { Name=Concrete_Roughness }
+                    ParameterInfos[7] = { Name=Composite_Metallic }
+                    ParameterInfos[8] = { Name=Composite_Tile }
+                    ParameterInfos[9] = { Name=MetalDark_Roughness }
+                    ParameterInfos[10] = { Name=Dirt_Height }
+                    ParameterInfos[11] = { Name=Roads_Tile }
+                    ParameterInfos[12] = { Name=Wear_Strength }
+                    ParameterInfos[13] = { Name=Input_HasPower }
+                    ParameterInfos[14] = { Name=Rubber_Tile }
+                    ParameterInfos[15] = { Name=BlinkLight_Strength }
+                    ParameterInfos[16] = { Name=WA_DirtScale }
+                    ParameterInfos[17] = { Name=Dirt_Mask_Strength }
+                    ParameterInfos[18] = { Name=Rubber_Roughness }
+                    ParameterInfos[19] = { Name=PrimaryPaintedMetal_Tile }
+                    ParameterInfos[20] = { Name=Dirt_Roughness }
+                    ParameterInfos[21] = { Name=Plastic_Tile }
+                    ParameterInfos[22] = { Name=LightHeat_HasPower }
+                    ParameterInfos[23] = { Name=Dirt_Is_Moving_UV_Tile }
+                    ParameterInfos[24] = { Name=MetalGrey_Roughness }
+                    ParameterInfos[25] = { Name=MetalDark_Tile }
+                    ParameterInfos[26] = { Name=Output_HasPower }
+                    ParameterInfos[27] = { Name=MetalGrey_Metallic }
+                    ParameterInfos[28] = { Name=Composite_Roughness }
+                    ParameterInfos[29] = { Name=BlinkSpeed }
+                    ParameterInfos[30] = { Name=Cement_Roughness }
+                    ParameterInfos[31] = { Name=Steel Roughness }
+                    ParameterInfos[32] = { Name=Concrete_Tile }
+                    ParameterInfos[33] = { Name=Plastic_Roughness }
+                    ParameterInfos[34] = { Name=Cement_Tile }
+                    ParameterInfos[35] = { Name=Secondary_Roughness }
+                    ParameterInfos[36] = { Name=Road_Metallic }
+                    ParameterInfos[37] = { Name=MetalDark_Metallic }
+                    ParameterInfos[38] = { Name=Road_Roughness }
+                    ParameterInfos[39] = { Name=SecondaryPaintedMetal_Tile }
+                    ParameterInfos[40] = { Name=Light_HasPower }
+                    ParameterInfos[41] = { Name=Wear_Tile }
+                    ParameterInfos[42] = { Name=MetalGrey_Tile }
+                    ParameterInfos[43] = { Name=Steel_Tile }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[17] =
+                {
+                    ParameterInfos[0] = { Name=BlinkingLight_Color }
+                    ParameterInfos[1] = { Name=PrimaryPaintedMetal_Color }
+                    ParameterInfos[2] = { Name=SecondaryPaintedMetal_Color }
+                    ParameterInfos[3] = { Name=Dirt Color_1 }
+                    ParameterInfos[4] = { Name=Composite_Color }
+                    ParameterInfos[5] = { Name=LightHeat_Color }
+                    ParameterInfos[6] = { Name=Road_Color }
+                    ParameterInfos[7] = { Name=Steel_Color }
+                    ParameterInfos[8] = { Name=Output_Color }
+                    ParameterInfos[9] = { Name=Cement_Color }
+                    ParameterInfos[10] = { Name=LightColor }
+                    ParameterInfos[11] = { Name=Plastic_Color }
+                    ParameterInfos[12] = { Name=Rubber_Color }
+                    ParameterInfos[13] = { Name=Foundation_Color }
+                    ParameterInfos[14] = { Name=MetalGrey_Color }
+                    ParameterInfos[15] = { Name=MetalDark_Color }
+                    ParameterInfos[16] = { Name=Input_Color }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[2] =
+                {
+                    ParameterInfos[0] = { Name=None }
+                    ParameterInfos[1] = { Name=BuildingSpecificAO }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[44] =
+        {
+            ScalarValues[0] = 1
+            ScalarValues[1] = 0.3
+            ScalarValues[2] = 1.6
+            ScalarValues[3] = 3
+            ScalarValues[4] = 45
+            ScalarValues[5] = 0
+            ScalarValues[6] = 1.5
+            ScalarValues[7] = 0.2
+            ScalarValues[8] = 5
+            ScalarValues[9] = 1
+            ScalarValues[10] = 4
+            ScalarValues[11] = 5
+            ScalarValues[12] = 15
+            ScalarValues[13] = 1
+            ScalarValues[14] = 5
+            ScalarValues[15] = 2
+            ScalarValues[16] = 256
+            ScalarValues[17] = 0.4
+            ScalarValues[18] = 1
+            ScalarValues[19] = 10
+            ScalarValues[20] = 1
+            ScalarValues[21] = 5
+            ScalarValues[22] = 0.18
+            ScalarValues[23] = 14
+            ScalarValues[24] = 0.7
+            ScalarValues[25] = 5
+            ScalarValues[26] = 1
+            ScalarValues[27] = 0.9
+            ScalarValues[28] = 1
+            ScalarValues[29] = 1
+            ScalarValues[30] = 0.7
+            ScalarValues[31] = 1
+            ScalarValues[32] = 5
+            ScalarValues[33] = 0.85
+            ScalarValues[34] = 1
+            ScalarValues[35] = 1.6
+            ScalarValues[36] = 0.47
+            ScalarValues[37] = 0.9
+            ScalarValues[38] = 1.5
+            ScalarValues[39] = 10
+            ScalarValues[40] = 0.45
+            ScalarValues[41] = 12
+            ScalarValues[42] = 5
+            ScalarValues[43] = 5
+        }
+        VectorValues[17] =
+        {
+            VectorValues[0] = { R=1, G=0, B=0.801567, A=1 }
+            VectorValues[1] = { R=1, G=0.440705, B=0.156314, A=1 }
+            VectorValues[2] = { R=0.116971, G=0.132868, B=0.262251, A=1 }
+            VectorValues[3] = { R=0.115, G=0.088781, B=0.073073, A=1 }
+            VectorValues[4] = { R=0.301, G=0.321239, B=0.35, A=1 }
+            VectorValues[5] = { R=10, G=3, B=0, A=1 }
+            VectorValues[6] = { R=0.615, G=0.615, B=0.615, A=1 }
+            VectorValues[7] = { R=0.890625, G=0.890625, B=0.890625, A=1 }
+            VectorValues[8] = { R=0, G=1, B=0.46, A=1 }
+            VectorValues[9] = { R=1, G=1, B=1, A=1 }
+            VectorValues[10] = { R=0, G=0, B=1, A=1 }
+            VectorValues[11] = { R=0.011198, G=0.0144, B=0.015, A=1 }
+            VectorValues[12] = { R=0.014444, G=0.014444, B=0.014444, A=1 }
+            VectorValues[13] = { R=0.615, G=0.615, B=0.615, A=1 }
+            VectorValues[14] = { R=0.5, G=0.5, B=0.5, A=1 }
+            VectorValues[15] = { R=0.25, G=0.25, B=0.25, A=1 }
+            VectorValues[16] = { R=1, G=0.498109, B=0, A=1 }
+        }
+        TextureValues[2] = {  }
+    }
+    ReferencedTextures[25] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/PaintedPrimaryMetal_normal.PaintedPrimaryMetal_normal'
+        ReferencedTextures[1] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/PaintedPrimaryMetal_albedo.PaintedPrimaryMetal_albedo'
+        ReferencedTextures[2] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/PaintedPrimaryMetal_roughnessMetallicHeight.PaintedPrimaryMetal_roughnessMetallicHeight'
+        ReferencedTextures[3] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Mask_Factory_02.Mask_Factory_02'
+        ReferencedTextures[4] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBlend.BlendFunc_DefBlend'
+        ReferencedTextures[5] = Texture2D'/Engine/EngineMaterials/BlendFunc_DefBase.BlendFunc_DefBase'
+        ReferencedTextures[6] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Nor.Steel_Nor'
+        ReferencedTextures[7] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Mask_Alb.Steel_Mask_Alb'
+        ReferencedTextures[8] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Metal.Steel_Metal'
+        ReferencedTextures[9] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_NorRough.Steel_NorRough'
+        ReferencedTextures[10] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Alb.Steel_Alb'
+        ReferencedTextures[11] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Plastic_Nor.Plastic_Nor'
+        ReferencedTextures[12] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Paint_Rubber_Plastic_Rough.Paint_Rubber_Plastic_Rough'
+        ReferencedTextures[13] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Rubber_Nor.Rubber_Nor'
+        ReferencedTextures[14] = Texture2D'/Game/FactoryGame/Buildable/Building/Foundation/Texture/Concrete_02_Alb.Concrete_02_Alb'
+        ReferencedTextures[15] = Texture2D'/Game/FactoryGame/Buildable/Building/Foundation/Texture/Concrete_02_Nor_Rough.Concrete_02_Nor_Rough'
+        ReferencedTextures[16] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Asphalt_Alb.Asphalt_Alb'
+        ReferencedTextures[17] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Asphalt_Nor_Rough.Asphalt_Nor_Rough'
+        ReferencedTextures[18] = Texture2D'/Game/FactoryGame/Buildable/-Shared/Texture/Factory/Steel_Rough.Steel_Rough'
+        ReferencedTextures[20] = Texture2D'/Engine/EngineMaterials/DefaultDiffuse.DefaultDiffuse'
+        ReferencedTextures[21] = Texture2D'/Game/FactoryGame/World/Environment/Landscape/Texture/Tiles/Road/DirtRoad_Nor.DirtRoad_Nor'
+        ReferencedTextures[22] = Texture2D'/Game/FactoryGame/Buildable/Factory/CA_SplitterProgrammable/Material/ProgrammableSplitter_MonitorGrid.ProgrammableSplitter_MonitorGrid'
+        ReferencedTextures[23] = Texture2D'/Game/FactoryGame/Buildable/Building/Foundation/Texture/Cement_Alb.Cement_Alb'
+        ReferencedTextures[24] = Texture2D'/Game/FactoryGame/Buildable/Building/Foundation/Texture/Cement_Nor_Rough.Cement_Nor_Rough'
+    }
+}
+BlendMode = BLEND_Opaque (0)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[2] =
+{
+    CollectedTextureParameters[0] = { Texture=None, Name=None, Group=None }
+    CollectedTextureParameters[1] =
+    {
+        Texture = None
+        Name = BuildingSpecificAO
+        Group = None
+    }
+}
+CollectedScalarParameters[44] =
+{
+    CollectedScalarParameters[0] = { Value=1, Name=Light_Strength_Global, Group=None }
+    CollectedScalarParameters[1] = { Value=0.3, Name=Roughness, Group=None }
+    CollectedScalarParameters[2] = { Value=1.6, Name=Primary_Roughness, Group=None }
+    CollectedScalarParameters[3] = { Value=3, Name=Dirt_Gradient_Strength, Group=None }
+    CollectedScalarParameters[4] = { Value=45, Name=UV_Tile_Dirt_Normal, Group=None }
+    CollectedScalarParameters[5] = { Value=0, Name=Metallic, Group=None }
+    CollectedScalarParameters[6] = { Value=1.5, Name=Concrete_Roughness, Group=None }
+    CollectedScalarParameters[7] = { Value=0.2, Name=Composite_Metallic, Group=None }
+    CollectedScalarParameters[8] = { Value=5, Name=Composite_Tile, Group=None }
+    CollectedScalarParameters[9] = { Value=1, Name=MetalDark_Roughness, Group=None }
+    CollectedScalarParameters[10] = { Value=4, Name=Dirt_Height, Group=None }
+    CollectedScalarParameters[11] = { Value=5, Name=Roads_Tile, Group=None }
+    CollectedScalarParameters[12] = { Value=15, Name=Wear_Strength, Group=None }
+    CollectedScalarParameters[13] = { Value=1, Name=Input_HasPower, Group=None }
+    CollectedScalarParameters[14] = { Value=5, Name=Rubber_Tile, Group=None }
+    CollectedScalarParameters[15] = { Value=2, Name=BlinkLight_Strength, Group=None }
+    CollectedScalarParameters[16] = { Value=256, Name=WA_DirtScale, Group=None }
+    CollectedScalarParameters[17] = { Value=0.4, Name=Dirt_Mask_Strength, Group=None }
+    CollectedScalarParameters[18] = { Value=1, Name=Rubber_Roughness, Group=None }
+    CollectedScalarParameters[19] =
+    {
+        Value = 10
+        Name = PrimaryPaintedMetal_Tile
+        Group = None
+    }
+    CollectedScalarParameters[20] = { Value=1, Name=Dirt_Roughness, Group=None }
+    CollectedScalarParameters[21] = { Value=5, Name=Plastic_Tile, Group=None }
+    CollectedScalarParameters[22] = { Value=0.18, Name=LightHeat_HasPower, Group=None }
+    CollectedScalarParameters[23] =
+    {
+        Value = 14
+        Name = Dirt_Is_Moving_UV_Tile
+        Group = None
+    }
+    CollectedScalarParameters[24] = { Value=0.7, Name=MetalGrey_Roughness, Group=None }
+    CollectedScalarParameters[25] = { Value=5, Name=MetalDark_Tile, Group=None }
+    CollectedScalarParameters[26] = { Value=1, Name=Output_HasPower, Group=None }
+    CollectedScalarParameters[27] = { Value=0.9, Name=MetalGrey_Metallic, Group=None }
+    CollectedScalarParameters[28] = { Value=1, Name=Composite_Roughness, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=BlinkSpeed, Group=None }
+    CollectedScalarParameters[30] = { Value=0.7, Name=Cement_Roughness, Group=None }
+    CollectedScalarParameters[31] = { Value=1, Name=Steel Roughness, Group=None }
+    CollectedScalarParameters[32] = { Value=5, Name=Concrete_Tile, Group=None }
+    CollectedScalarParameters[33] = { Value=0.85, Name=Plastic_Roughness, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Cement_Tile, Group=None }
+    CollectedScalarParameters[35] = { Value=1.6, Name=Secondary_Roughness, Group=None }
+    CollectedScalarParameters[36] = { Value=0.47, Name=Road_Metallic, Group=None }
+    CollectedScalarParameters[37] = { Value=0.9, Name=MetalDark_Metallic, Group=None }
+    CollectedScalarParameters[38] = { Value=1.5, Name=Road_Roughness, Group=None }
+    CollectedScalarParameters[39] =
+    {
+        Value = 10
+        Name = SecondaryPaintedMetal_Tile
+        Group = None
+    }
+    CollectedScalarParameters[40] = { Value=0.45, Name=Light_HasPower, Group=None }
+    CollectedScalarParameters[41] = { Value=12, Name=Wear_Tile, Group=None }
+    CollectedScalarParameters[42] = { Value=5, Name=MetalGrey_Tile, Group=None }
+    CollectedScalarParameters[43] = { Value=5, Name=Steel_Tile, Group=None }
+}
+CollectedVectorParameters[17] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=1, G=0, B=0.801567, A=1 }
+        Name = BlinkingLight_Color
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=1, G=0.440705, B=0.156314, A=1 }
+        Name = PrimaryPaintedMetal_Color
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.116971, G=0.132868, B=0.262251, A=1 }
+        Name = SecondaryPaintedMetal_Color
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.115, G=0.088781, B=0.073073, A=1 }
+        Name = Dirt Color_1
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.301, G=0.321239, B=0.35, A=1 }
+        Name = Composite_Color
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=10, G=3, B=0, A=1 }
+        Name = LightHeat_Color
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.615, G=0.615, B=0.615, A=1 }
+        Name = Road_Color
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.890625, G=0.890625, B=0.890625, A=1 }
+        Name = Steel_Color
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0, G=1, B=0.46, A=1 }
+        Name = Output_Color
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=1, G=1, B=1, A=1 }
+        Name = Cement_Color
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=0, G=0, B=1, A=1 }
+        Name = LightColor
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.011198, G=0.0144, B=0.015, A=1 }
+        Name = Plastic_Color
+        Group = None
+    }
+    CollectedVectorParameters[12] =
+    {
+        Value = { R=0.014444, G=0.014444, B=0.014444, A=1 }
+        Name = Rubber_Color
+        Group = None
+    }
+    CollectedVectorParameters[13] =
+    {
+        Value = { R=0.615, G=0.615, B=0.615, A=1 }
+        Name = Foundation_Color
+        Group = None
+    }
+    CollectedVectorParameters[14] =
+    {
+        Value = { R=0.5, G=0.5, B=0.5, A=1 }
+        Name = MetalGrey_Color
+        Group = None
+    }
+    CollectedVectorParameters[15] =
+    {
+        Value = { R=0.25, G=0.25, B=0.25, A=1 }
+        Name = MetalDark_Color
+        Group = None
+    }
+    CollectedVectorParameters[16] =
+    {
+        Value = { R=1, G=0.498109, B=0, A=1 }
+        Name = Input_Color
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[0] = {}
